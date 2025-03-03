@@ -25,7 +25,9 @@ version = "1"
 features = ["os-poll", "os-ext"]
 
 [dependencies.serialport]
-version = "4"
+version = "4.7.1-alpha.0"
+git = "https://github.com/sola-contrib/serialport-rs"
+rev = "81dfac315b5b9aa31625068449bd307e1ce34308"
 default-features = false
 
 [dependencies.log]
